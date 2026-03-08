@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Code Review Assistant - Local AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app__header">
+      <h1>AI Code Review Assistant - Local AI</h1>
+      <p>Paste your code and run a privacy-friendly review directly in your browser.</p>
+    </header>
+
+    <section class="panel input-panel">
+      <label for="codeInput">Code Input</label>
+      <textarea id="codeInput" placeholder="Paste your code here..."></textarea>
+      <button id="reviewBtn" type="button">Review Code</button>
+    </section>
+
+    <section class="panel output-panel">
+      <div class="output-panel__header">
+        <h2>Analysis</h2>
+        <div id="spinner" class="spinner hidden" aria-live="polite" aria-label="Loading"></div>
+      </div>
+      <div id="output" class="output" role="status">
+        <p class="placeholder">Your AI-assisted review will appear here.</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
