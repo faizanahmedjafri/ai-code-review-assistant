@@ -8,7 +8,7 @@ The application uses a local transformer model to perform analysis directly in t
 
 ## 🌐 Live Demo
 
-Once deployed with GitHub Pages:
+Deployed with GitHub Pages:
 
 ```
 https://faizanahmedjafri.github.io/ai-code-review-assistant
@@ -161,3 +161,4 @@ It showcases how modern browser capabilities enable **lightweight AI developer t
 ## 📜 License
 
 MIT License
+
